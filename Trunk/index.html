@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<title>Antonio Culebras</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+.bgimg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('./images/antonito.jpeg');
+    min-height: 100%;
+}
+video{
+width:100%;
+height: auto;
+}
+</style>
+<body>
+
+<!-- Sidebar with image -->
+<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+  <div class="bgimg"></div>
+</nav>
+
+<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="#sobre" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Sobre mí</a>
+    <a href="#coach" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Coach</a>
+    <a href="#adicciones" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Adicciones</a>
+	<a href="#arte" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Arte</a>
+	<a href="#musica" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Música</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contacto</a>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="w3-main w3-padding-large" style="margin-left:40%">
+
+  <!-- Menu icon to open sidebar -->
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+  <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+    <h1 class="w3-jumbo"><b>Antonio Culebras</b></h1>
+    <p>Artista y Coach.</p>
+    <img src="./images/antonito.jpeg" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
+    <img src="./images/antonito.jpeg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
+    <!--<button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+      <i class="fa fa-download"></i> Download Resume
+    </button>-->
+  </header>
+  <!-- Sobre mi Section -->
+  <div class="w3-padding-32 w3-content" id="sobre">
+    <h2 class="w3-text-red">Sobre mí</h2>
+    <p>Las experiencias vitales han llevado a Antonio Culebras (Madrid, 19..) ha crearse una carrera profesional en dos áreas diferenciadas pero complementarias: las artes y el coaching. Su participación en diversos proyectos musicales y sus acciones en el mundo dle arte (fotografía, vídeo...) le han servido para aprender una serie de pautas expresivas y de comportamiento para aplicarlas después en aras del bien de la persona y de la sociedad. Para Antonio no existen las complicaciones. De todas las vivencias, tanto las buenas como las malas, ha sabido sacarles su lado más positivo.</p>
+    <hr class="w3-opacity-min">
+  <!-- End Sobre mi Section -->
+  </div>
+  <!-- Coaching Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-24" id="coach">
+    <h2 class="w3-text-red">Coaching</h2>
+    <!-- Grid for coaching photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+		<video  width="500" height="auto" controls>
+		<source src="./video/vid1.mp4" type="video/mp4" media="(min-width:400px)">
+		<source src="./video/vid2.mkv">
+		<source src="./video/vid3.3gp">
+		Su ordenador no soporta este video
+		</video>
+        <img src="./images/coach4.jpg" style="width:100%">
+        <!--<img src="/w3images/sailboat.jpg" style="width:100%">-->
+      </div>
+
+      <div class="w3-half">
+        <img src="./images/coach5.jpg" style="width:100%">
+		<img src="./images/coach1.PNG" style="width:100%">
+        <!--<img src="./images/coach2.jpg" style="width:100%">-->
+        <!--<img src="/w3images/wedding.jpg" style="width:100%">-->
+        <!--<img src="/w3images/p6.jpg" style="width:100%">-->
+				
+      </div>
+    <!-- End coaching photo grid -->
+    </div>
+    <p>Su labor como Coach Social es acompañar a individuos y grupos que tengan la inquietud de trabajar, cambiar o indagar en algún aspecto concreto de sus vidas. La clave fundamental del Coaching Ontológico consiste en la subjetividad de lo que nos rodea, y de las diferentes posibilidades de interpretación en función de la persona que observa el mundo. Así pues, es una visión que, en su base, no parte de la búsqueda de la verdad sino de las posibilidades de convivencia a las que da lugar el respeto por las diferentes formas de interpretar lo que ocurre y las vías que se abren cuando la visión se enfoca desde una u otra perspectiva. Antonio Culebras es, además, un gran conocedor de la Meditación Vipassana, una técnica milenaria donde el silencio y la introspección es esencial para que la persona se centre en sí misma y no se 'contagie' de emociones ajenas. Un método indicado para crear un espacio, una 'burbuja' personal que permite estar entregado, pero no perdido, en el otro. Otra herramienta válida para conectar los sentidos con la parte emocional es la aromaterapia. Antonio crea sus propias fórmulas a base de esencias naturales. Lavanda y geranio para descansar, o el romero y menta para tonificar las vías respiratorias... Al igual que ocurre con el binomio música y oido, el olfato y las fragancias sirven para cambiar la energía y el estado de ánimo.</p>
+	<hr class="w3-opacity-min">
+    <!-- End Coaching Section -->
+    </div>	
+	
+  <!-- Adicciones Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-24" id="adicciones">
+    <h2 class="w3-text-red">Adicciones</h2>
+      <!-- Grid for adiccions photos -->
+      <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-half">
+          <img src="./images/adicc5.jpg" style="width:100%">
+          <img src="./images/adicc4.jpg" style="width:100%">
+          <!--<img src="/w3images/sailboat.jpg" style="width:100%">-->
+        </div>
+
+        <div class="w3-half">
+          <img src="./images/adicc2.jpg" style="width:100%">
+          <!--<img src="./images/adicc4.jpg" style="width:100%">-->
+          <!--<img src="/w3images/wedding.jpg" style="width:100%">-->
+          <!--<img src="/w3images/p6.jpg" style="width:100%">-->
+        </div>
+      <!-- End adicciones photo grid -->
+      </div>
+    <p>Su trabajo en adicciones lo realiza bajo el prisma de su experiencia como adicto en recuperación y mediante su formación en Conductas y Comportamientos adictivos del Metodo Minnesota, Intervencionista familiar y Sober coach. Este método está basado en el programa de Doce pasos de autoayuda adaptado a los centros de tratamiento. En su faceta como Intervencionista familiar trabaja con el núcleo doméstico. Su especialización son las prevenciones y la información en jóvenes y adolescentes, y la psicoeducacion de sus familias asi como acompañar y llevar un seguimiento de personas que han parado en su adiccion en activo y siguen un proceso de recuperación, restauración y evolución personal ayudando a ue las personas controlen sus impulsos y trabajen con las ideas de 'quiero más' o 'nada me satisface'. Una forma de reaprender fuera de la ansiedad y de reeducar la mente.</p>
+	<hr class="w3-opacity-min">
+      <!-- End Adicciones Section -->
+      </div>
+	  
+	   <!-- Arte Section -->
+	   <div class="w3-content w3-justify w3-text-grey w3-padding-24" id="adicciones">
+	     <h2 class="w3-text-red">Arte</h2>
+	       <!-- Grid for arte photos -->
+	       <div class="w3-row-padding" style="margin:0 -16px">
+	         <div class="w3-half">
+	           <img src="./images/art2.JPG" style="width:100%">
+	           <img src="./images/art5.jpeg" style="width:100%">
+	           <!--<img src="/w3images/sailboat.jpg" style="width:100%">-->
+	         </div>
+
+	         <div class="w3-half">
+	           <img src="./images/art1.jpg" style="width:100%">
+	           <img src="./images/art3.JPG" style="width:100%">
+	           <!--<img src="/w3images/wedding.jpg" style="width:100%">-->
+	           <!--<img src="/w3images/p6.jpg" style="width:100%">-->
+	         </div>
+	       <!-- End arte photo grid -->
+	       </div>
+	     <p>Antonio Culebras es un artista multidisciplinar. Aunque estudió Dirección de Documentales y Video Arte, su formación y evolución ha sido siempre autodidacta y espontanea. La creatividad forma parte de su vida tanto a nivel personal como profesional. La perfomance, como acción artística, es la base y la cuna de su desarrollo como artista. Desde aquí ha probado, trabajado y desarrollado diferentes proyectos con o sin guion. Arte visual, música, artes plásticas, moda, escenografía, poesía... son algunas de las disciplinas que ha tratado y en cuya formación no ha parado. Su último reto ha sido estudiar en el instituto de Marina Abramovic para profundizar en su método. Además, considera que el arte y la terapia se sostienen y se retroalimentan por lo que el arte suele estar muy presente en sus trabajos de coaching.</p>
+		  <hr class="w3-opacity-min">
+	      <!-- End Arte Section -->
+	      </div>
+   	   <!-- Musica Section -->
+   	   <div class="w3-content w3-justify w3-text-grey w3-padding-24" id="adicciones">
+   	     <h2 class="w3-text-red">Música</h2>
+   	       <!-- Grid for musica photos -->
+   	       <div class="w3-row-padding" style="margin:0 -16px">
+   	         <div class="w3-half">
+   	           <img src="./images/music1.JPG" style="width:100%">
+   	           <img src="./images/music4.jpeg" style="width:100%">
+   	           <!--<img src="/w3images/sailboat.jpg" style="width:100%">-->
+   	         </div>
+
+   	         <div class="w3-half">
+   	           <img src="./images/music3.jpg" style="width:100%">
+   	           <img src="./images/music2.JPG" style="width:100%">
+   	           <!--<img src="/w3images/wedding.jpg" style="width:100%">-->
+   	           <!--<img src="/w3images/p6.jpg" style="width:100%">-->
+   	         </div>
+   	       <!-- End musica photo grid -->
+   	       </div>
+   	     <p>Es vocalista en Glamour to Kill, un exitoso grupo de electro rock afincado en Berlín, con varios discos publicados y múltiples conciertos por Europa. Antonio también es promotor de Emotional Narcotic Orchestra (ENO), un proyecto breve pero intenso donde la música orquestal era protagonista. ENO destacó por ser una colaboración para This is Julio, una revista especializada en arte que salió con motivo de la celebración de la famosa feria madrileña Arco especializada en creaciones contemporáneas. Le Grouop es el último proyecto musical en el que está involucrado donde la música experimental es el punto fuerte basada en ritmos dunsteep. Con el mimso equipo, Antonio está materializando la idea de mezclar poesía y música, donde la música clásica, en este caso el piano, se fusiona con los versos de diversos escritores.</p>
+   		  <hr class="w3-opacity-min">
+	      <!-- End Musica Section -->
+	      </div>  
+  <!-- Contact Section -->
+  <div class="w3-padding-24 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+    <h2 class="w3-text-red">Contacto</h2>
+    <hr class="w3-opacity-min">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Madrid, España</p>
+      <!--<p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>-->
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+    </div>
+    
+    <!-- Image of location/map -->
+    <!--<img src="/w3images/map.jpg" class="w3-image w3-greyscale" style="width:100%;margin:32px 0">-->
+   
+    <p>Si lo prefiere, puede mandar un mensaje:</p>
+    <form action="./php/contacto.php" method="post" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Nombre" required name="nombre"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="email"></p>
+	  <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Teléfono" required name="telefono"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Mensaje" required name="mensaje"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> ENVIAR
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>  
+  
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
+    <a href="https://www.facebook.com/antonio.lopezculebras" i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <!--<p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>-->
+  <!-- End footer -->
+  </footer>
+  
+<!-- END PAGE CONTENT -->
+</div>
+
+<script>
+// Open and close sidebar
+function openNav() {
+    document.getElementById("mySidebar").style.width = "60%";
+    document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeNav() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
+
